@@ -18,6 +18,7 @@
   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
   background-size: cover;
   margin: 0;
+
 }
 .body{
   background-color: black; 
@@ -42,16 +43,31 @@
   margin-left: 190px;
   margin-right: 190px;
   padding-top: 60px;
+  
 }
 .nav-text{
   display: flex;
   justify-content: space-around;
-  gap: 2.938rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 2.5rem;
   font-size: 1rem; 
   width: 465px;
   height: 46px;
+  gap: 2.938rem;
+  text-align: center;
+}
+.home-text{
+  border-radius: 46px;
+  height: 35px;
+  width: 90px;
+  background: rgb(230, 83, 60);
+  position: static;
+  margin-top: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .ham-burger{
   display: none;
@@ -231,7 +247,8 @@ margin-right: 100px;
   margin-right: 32px;
   margin-top: 30px;
   margin-bottom: 29px;
-  object-fit: cover;
+  object-fit: none;
+  object-position: 65% 28%;
 }
 .rightside-text{
   margin-left: 54px;
@@ -587,7 +604,9 @@ select{
     margin-left: 20px;
   }
   .header-full{
-    
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-size: cover;
+    margin: 0;
   }
   .header-section{
     display: flex;
@@ -615,6 +634,7 @@ select{
     height: 170px;
     margin-left: 33px;
     padding-bottom: 33px;
+    object-fit: cover;
   }
   .rightside-text{
     margin-left: 33px;
